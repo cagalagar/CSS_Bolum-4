@@ -1,0 +1,100 @@
+<!-- 
+    BU SAYFA SADECE ÖĞRENME VE DENEME AMAÇLIDIR. 
+    GERÇEKLİĞİ YANSITMAZ. KODLAR KİŞİSEL GELİŞİM İÇİN YAZILMIŞTIR.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TOM | Hesap Açma</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/forms.css">
+</head>
+<body id="body">
+    
+    <!-- Başlık -->
+     <header class="main-header fixed_logo">
+        <div class="container">
+        <a href="index.html" class="main-header__logo">Taktiksel&Operasyon Merkezi</a>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="index.html">Menü</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Kurallar</a>
+                </li>
+                <li class="main-nav__item main-nav__item--login">
+                    <a class="btn btn-secondary" href="register.html">Giriş</a>
+                </li>
+            </ul>        
+        </nav>
+        </div>
+        
+     </header>
+
+     <!-- Main/Gövde -->
+      <main class="signup-page">
+        <h1 class="signup-tittle">Hesabını Oluştur</h1>
+        <form action="" class="signup-form">
+            <label for="firstname">Birinci Adın</label>
+            <input type="text" id="firstname">
+            
+            <label for="lastname">İkinci Adın</label>
+            <input type="text" id="lastname">
+
+            <label for="email">Email</label>
+            <input type="email" id="email">
+
+            <label for="password">Şifren</lab   el>
+            <input type="password" id="password">
+
+            <label for="password">Cinsiyetin</label>
+            <select id="gender">
+                <option value="">Seç</option>
+                <option value="">Kadın</option>
+                <option value="">Erkek</option>
+            </select>
+
+            <input type="checkbox" id="agree-terms">
+            <label for="agree-terms">Kabul ettiğine
+                <a href="">Kişisel hak &amp; Sorumluluklar</a>
+            </label>
+
+            <button type="submit" class="btn btn-primary">Giriş Yap</button>
+        </form>
+
+      </main>
+
+      <!-- Footer/Bitiş --> 
+     <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <ul class="footer-links">
+                        <li><a href="#">Hakkımız</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Bağlantımız</a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul class="social-links">
+                        <li><a href="" class="fab fa-facebook"></a></li>
+                        <li><a href="" class="fab fa-twitter"></a></li>
+                        <li><a href="" class="fab fa-instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </footer>
+
+    <!-- Üste kaydıran Logo -->
+     <a href="#body" id="backtotop">
+        <i class="fa-solid fa-circle-chevron-up"></i>
+     </a>
+
+</body>
+</html>
